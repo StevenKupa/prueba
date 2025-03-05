@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Nunito:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+nav {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sección Hero */
+.hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Secciones generales */
+.container, .testimonios, .blog, .equipo, .contacto {
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+/* Servicios */
+.services, .testimonios, .blog, .equipo {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.service, .testimonio, .articulo, .abogado {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonios */
+.testimonio {
+    width: 40%;
+    min-width: 250px;
+}
+
+/* Blog */
+.articulo {
+    width: 40%;
+    min-width: 250px;
+}
+
+.articulo a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+/* Equipo */
+.abogado img {
+    width: 80px;
+    border-radius: 5%;
+}
+
+/* Contacto */
+.contacto {
+    background: #222;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
